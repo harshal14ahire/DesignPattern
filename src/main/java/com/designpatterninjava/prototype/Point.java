@@ -1,6 +1,5 @@
 package com.designpatterninjava.prototype;
 
-// A simple class to demonstrate deep copy issues
 public class Point {
     int x, y;
 
@@ -41,6 +40,7 @@ class Circle implements Shape {
 class Rectangle implements Shape {
     private String color;
     private Point topLeft;
+
     public Rectangle(String color, Point topLeft) {
         this.color = color;
         this.topLeft = topLeft;
